@@ -1,0 +1,98 @@
+.grow { transition: all .2s ease-in-out; }
+ .grow:hover { transform: scale(1.1); }
+
+
+.white{
+height: 2em;
+
+}
+
+#main{
+  overflow:hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.social{
+  margin: 0 auto;
+}
+ul{
+  list-style-type:none;
+}
+
+li{
+  display: inline;
+}
+
+#news, #sports, #interactive{
+ display:inline;
+}
+
+
+.jumbotron{ 
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color:  black;
+}
+
+a:visited {
+  color:  black;
+}
+
+
+.circle{
+  background-color: black;
+}
+
+h1{
+color:black;
+font-size:5em;
+margin: 0 auto;
+left: 50%;
+}
+
+h2{
+  color:black;}
+
+.intro{
+  text-align: center;
+}
+
+
+body{
+background: black;
+}
+
+img:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+
+.hide{
+ visibility:hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+
+.view{visibility: hidden;
+}
+ 
+
+.img-circle{
+  width:12.3em;
+  border: .2em solid black;
+}
+
+.test{
+  text-align:center;
+}
+
