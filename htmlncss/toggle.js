@@ -33,13 +33,13 @@ $("#nb").click(function() {
     $("#sports").hide();})
 
 
-   $( "#sb" ).click(function() {
+ $( "#sb" ).click(function() {
     $("#sports").show( "fold"),
     $("#news").show(),
     $("#interactive").show(),
     $("#news").hide("slow"),
     $("#sports").show( "fold"),
-    $("#news").hide();});
+    $("#interactive").hide();});
 
 
   $("#ib").click(function() {
